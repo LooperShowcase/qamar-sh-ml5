@@ -4,7 +4,7 @@ class Player {
     this.x = 50;
     this.y = height - this.size;
     this.velocityY = 0;
-    this.gravity = 2;
+    this.gravity = 1.5;
   }
   show() {
     image(playerImg, this.x, this.y, this.size, this.size);
